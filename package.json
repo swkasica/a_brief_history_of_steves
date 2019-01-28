@@ -1,0 +1,19 @@
+{
+  "name": "brief_history_steves",
+  "version": "1.0.0",
+  "description": "A Brief History of Steves",
+  "main": "index.js",
+  "scripts": {
+	  "build": "jupyter nbconvert presentation.ipynb --to slides && mv presentation.slides.html docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swkasica/a_brief_history_of_steves.git"
+  },
+  "author": "Stephen Kasica <kasica@alumni.ubc.ca>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swkasica/a_brief_history_of_steves/issues"
+  },
+  "homepage": "https://github.com/swkasica/a_brief_history_of_steves#readme"
+}
