@@ -4,7 +4,7 @@
   "description": "A Brief History of Steves",
   "main": "index.js",
   "scripts": {
-	  "build": "jupyter nbconvert presentation.ipynb --to slides && mv presentation.slides.html docs"
+	  "present": "jupyter nbconvert index.ipynb --to slides --reveal-prefix reveal.js --post serve"
   },
   "repository": {
     "type": "git",
